@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical" >
+  
+    <LinearLayout 
+    android:gravity="center_vertical" 
+    android:orientation="horizontal" 
+    android:background="@color/button_unselected" 
+    android:layout_width="fill_parent" 
+    android:layout_height="44.0dip"> 
+    
+        <TextView 
+        android:textSize="18.0sp" 
+        android:id = "@+id/tv_aboutus"
+        android:textColor="@android:color/white"
+        android:background="@drawable/skinpic_green" 
+        android:padding="12.0dip" 
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip"    
+        android:text="关于我们" />
+        
+        
+    </LinearLayout>
+    
+    
+    <ScrollView 
+    android:scrollbarThumbVertical="@drawable/scrollbar_handle_vertical" 
+    android:background="@color/info_panel_bg" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:layout_weight="1.0">
+    
+      	<LinearLayout 
+      	android:orientation="vertical" 
+      	android:paddingBottom="10.0dip" 
+      	android:layout_width="fill_parent" 
+      	android:layout_height="fill_parent" 
+      	android:isScrollContainer="true">
+      	
+      	
+      		<!-- 第一个白框BEGIN -->
+     	 	<LinearLayout 
+			android:gravity="center_vertical" 
+			android:orientation="vertical" 
+			android:background="@drawable/shape_bg" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_marginLeft="10.0dip" 
+			android:layout_marginTop="7.0dip" 
+			android:layout_marginRight="10.0dip">
+			
+				<LinearLayout 
+				android:gravity="center_vertical" 
+				android:orientation="horizontal" 
+				android:padding="10.0dip" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:minHeight="60.0dip">
+				
+					<ImageView 
+					android:layout_gravity="top" 
+					android:paddingTop="4.0dip"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:src="@drawable/aboutus" />
+					
+	                    <LinearLayout 
+	                     android:orientation="vertical"
+	                     android:layout_width="fill_parent" 
+	                     android:layout_height="wrap_content" 
+	                     android:layout_marginLeft="10.0dip">
+	                     	<TextView 
+		                     	android:textSize="14.0sp" 
+		                     	android:textColor="#ff545454" 
+		                     	android:gravity="center_vertical" 
+		                     	android:layout_width="fill_parent" 
+		                     	android:layout_height="wrap_content" 
+		                     	android:text="" 
+		                     	android:layout_marginTop="4.0dip" />
+	                        <TextView 
+		                        android:textSize="18.0sp" 
+		                        android:textColor="@android:color/black" 
+		                        android:gravity="center_vertical" 
+		                        android:layout_width="fill_parent" 
+		                        android:layout_height="wrap_content" 
+		                        android:text="山科快通流量客户端" />	                    
+	                    </LinearLayout>	                    
+	            </LinearLayout>
+	            <LinearLayout 
+				android:gravity="center_vertical" 
+				android:orientation="vertical" 
+				android:padding="10.0dip" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:minHeight="60.0dip">
+					<LinearLayout 
+					android:gravity="center_vertical" 
+					android:orientation="horizontal" 
+					android:padding="10.0dip" 
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:minHeight="60.0dip">
+			        	<TextView 
+				        	android:textSize="14.0sp" 
+				        	android:textColor="#ff545454" 
+				        	android:gravity="center_vertical" 
+				        	android:layout_width="fill_parent" 
+				        	android:layout_height="wrap_content" 
+				        	android:text="        本软件有山东科技大学信息科学与工程学院的同学共同开发，本软件为方便同学随时掌握快通账号流量而开发！欢迎同学 BUG反馈：nototon@126.com" />  
+		        	</LinearLayout>
+	        	</LinearLayout> 
+	        	<TextView 
+		        	android:textSize="14.0sp" 
+		        	android:textColor="#ff545454" 
+		        	android:gravity="center_vertical" 
+		        	android:layout_width="fill_parent" 
+		        	android:layout_height="wrap_content" 
+		        	android:text="" android:layout_marginTop="4.0dip" /> 	           
+	        </LinearLayout>
+	        <!-- 第一个白框end -->
+        
+        </LinearLayout> 
+        
+    </ScrollView>
+  
+
+</LinearLayout>

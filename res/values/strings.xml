@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">山科快通流量查询</string>
+	<string name="main_home">流量</string>
+	<string name="main_comment">评论</string>
+	<string name="main_message">公告</string>
+	<string name="main_edit">编写</string>
+	<string name="main_reload">刷新</string>
+	<string name="more">更多</string>
+	<string name="url_reg"><a href="http://219.218.128.137:8080/public/reg.aspx"><font color="#ff0000">查询密码不是拨号密码  点此申请</font></a></string>
+
+</resources>

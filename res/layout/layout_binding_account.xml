@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical" >
+  
+    <LinearLayout 
+    android:gravity="center_vertical" 
+    android:orientation="horizontal" 
+    android:background="@color/button_unselected" 
+    android:layout_width="fill_parent" 
+    android:layout_height="44.0dip"> 
+    
+        <TextView 
+        android:textSize="18.0sp" 
+        android:id = "@+id/tv_bin"
+        android:textColor="@android:color/white"
+        android:background="@drawable/title" 
+        android:padding="12.0dip" 
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip"    
+        android:text="绑定账户" />
+        
+        
+    </LinearLayout>
+    
+    
+    <ScrollView 
+    android:scrollbarThumbVertical="@drawable/scrollbar_handle_vertical" 
+    android:background="@color/info_panel_bg" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:layout_weight="1.0">
+    
+      	<LinearLayout 
+      	android:orientation="vertical" 
+      	android:paddingBottom="10.0dip" 
+      	android:layout_width="fill_parent" 
+      	android:layout_height="fill_parent" 
+      	android:isScrollContainer="true">
+      	
+      	
+      		<!-- 第一个白框BEGIN -->
+     	 	<LinearLayout 
+			android:gravity="center_vertical" 
+			android:orientation="vertical" 
+			android:background="@drawable/shape_bg" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_marginLeft="10.0dip" 
+			android:layout_marginTop="7.0dip" 
+			android:layout_marginRight="10.0dip">
+			
+				<LinearLayout 
+				android:gravity="center_vertical" 
+				android:orientation="horizontal" 
+				android:padding="10.0dip" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:minHeight="60.0dip">
+				
+					<ImageView 
+					android:layout_gravity="top" 
+					android:paddingTop="4.0dip"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:src="@drawable/h001" />
+					
+	                    <LinearLayout 
+	                     android:orientation="vertical"
+	                     android:layout_width="fill_parent" 
+	                     android:layout_height="wrap_content" 
+	                     android:layout_marginLeft="10.0dip">
+	                     
+	                        <TextView android:textSize="18.0sp" android:textColor="@android:color/black" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="快通账号绑定" />
+	                        <TextView android:textSize="14.0sp" android:textColor="#ff545454" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_marginTop="4.0dip" />
+	                        <TextView android:id = "@+id/url_reg"  android:textSize="14.0sp" android:textColor="#ff545454" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	                        
+	                    </LinearLayout>
+	                    
+	           </LinearLayout>
+	           
+	           <View 
+	           android:background="@drawable/shape_line" 
+	           android:layout_width="fill_parent" 
+	           android:layout_height="1.0px" />
+	           
+               <LinearLayout 
+               android:gravity="center_vertical" 
+               android:orientation="horizontal" 
+               android:layout_width="fill_parent" 
+               android:layout_height="wrap_content" 
+               android:padding="10.0dip" 
+               android:minHeight="50.0dip">
+               
+                    <TextView android:textSize="18.0sp" android:textColor="@android:color/black" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="快通账号" />
+                    
+                    <EditText 
+                    android:id = "@+id/binding_username"
+                    android:textSize="16.0sp" 
+                    android:textColor="#ff545454" 
+                    android:layout_marginLeft="10.0dip" 
+                    android:layout_marginRight="10.0dip" 
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"                
+                    android:hint="您的账号"                
+                    android:maxLines="1"
+                    android:maxLength="10"
+                    android:editable="true"
+      				android:background="@android:color/white"
+      				android:layout_weight="1.0"/>
+            
+                        
+                    
+               </LinearLayout>
+               
+               
+               
+			   <LinearLayout 
+               android:gravity="center_vertical" 
+               android:orientation="horizontal" 
+               android:layout_width="fill_parent" 
+               android:layout_height="wrap_content" 
+               android:padding="10.0dip" 
+               android:minHeight="50.0dip">
+               
+                    <TextView android:textSize="18.0sp" android:textColor="@android:color/black" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查询密码" />
+                    
+                    <EditText 
+                    android:inputType="textPassword"
+                    android:id = "@+id/binding_password"
+                    android:textSize="16.0sp" 
+                    android:textColor="#ff545454" 
+                    android:layout_marginLeft="10.0dip" 
+                     android:layout_marginRight="10.0dip" 
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"                
+                    android:hint="您的查询密码 "                
+                    android:maxLines="1"
+                    android:maxLength="10"
+                    android:editable="true"
+      				android:background="@android:color/white"
+      				android:layout_weight="1.0"/>
+            
+          
+               </LinearLayout>
+	      
+	           
+	           
+	        </LinearLayout>
+	        <!-- 第一个白框end -->
+        
+          <Button 
+           android:id = "@+id/button_binding"
+           android:textSize="14.0sp" 
+           android:textColor="@color/chat_title_name" 
+           android:layout_margin="10.0dip" 
+           android:layout_width="fill_parent" 
+           android:layout_height="wrap_content" 
+           android:text="绑定账户"
+           android:background="@drawable/chat_send_button_bg"/> 
+        </LinearLayout> 
+        
+    </ScrollView>
+  
+
+</LinearLayout>

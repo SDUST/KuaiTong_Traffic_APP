@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+<style name="notitle">
+<item name="android:windowNoTitle">true</item> 
+</style>
+
+    <style name="main_tab_bottom">
+        <item name="android:textSize">@dimen/bottom_tab_font_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>  
+        <item name="android:background">@drawable/home_btn_bg</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>  
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+   	<style name="auto_roll_style">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">26dip</item>
+	</style>
+
+	<style name="work_detail_row_style">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:textColor">@color/bule</item>
+	</style>
+
+	<style name="work_apption_field_style">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">@color/grey</item>
+		<item name="android:layout_marginLeft">4dip</item>
+		<item name="android:layout_marginTop">10dip</item>
+	</style>
+	
+	<style name="MyCustomtitle" parent="android:style/Theme.Light">
+    <item name="android:windowTitleBackgroundStyle">@style/titleBg</item>
+    <item name="android:windowTitleSize">46dp</item>
+    <item name="android:windowTitleStyle">@style/titleText</item>
+    </style>
+
+    <style name="titleBg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/title</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="titleText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+</resources> 
