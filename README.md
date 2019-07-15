@@ -29,4 +29,4 @@ KuaiTong_Traffic_android_app
 
 ## **二、项目的寄语** ##
 
-希望大家可以一起改进这款Android软件 积极PullRequest 邮箱 oiooj@qq.com 我会第一时间答复您！
+希望大家可以一起改进这款Android软件 积极PullRequest, 我会第一时间答复您！
